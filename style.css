@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+        
+    overflow-x: hidden !important;
+}
 
 .menu-btn{
  position: relative;
@@ -423,11 +426,12 @@ iframe{
 
 
 
-@media (max-width:580px) {
+@media screen and (max-width:580px) {
     .row{
         --bs-gutter-x:0 !important;
     }
     body{
+        
         overflow-x: hidden !important;
     }
     
